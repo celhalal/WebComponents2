@@ -1,5 +1,3 @@
-
-
 const template = document.createElement("template");
 template.innerHTML = `
     <link rel="stylesheet" href="pet-card/styles.css"/>
@@ -17,8 +15,7 @@ template.innerHTML = `
             <button id="greet">Say Hi!</button>
             <button id="toggle">View Details</button>
         </div>
-      </div>
-     
+      </div>  
     </div>
 `;
 class PetCard extends HTMLElement {
